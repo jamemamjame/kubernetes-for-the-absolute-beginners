@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: result-service
-  lavels:
+  labels:
     name: result-service
     app: demo-voting-app
 spec:

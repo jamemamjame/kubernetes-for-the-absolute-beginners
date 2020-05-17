@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: db  # should be the same as hostname which our application is looking for
-  lavels:
+  labels:
     name: db-service
     app: demo-voting-app
 spec:
